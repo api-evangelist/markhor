@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: markhor.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 26 04:21:01 2026 GMT
+  hsts: null
+domains:
+- domain: markhor.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
